@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register | MoviElla</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Movi<span>Ella</span></a>
+    <nav aria-label="Main"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="movies.html">Movies</a></li><li><a href="trailers.html">Trailers</a></li><li><a href="reviews.html">Reviews</a></li><li><a href="register.html" class="active" aria-current="page">Register</a></li><li><a href="contact.html">About</a></li></ul></nav>
+  </header>
+  <main>
+    <section class="container py-5">
+      <div class="row justify-content-center"><div class="col-md-8 col-lg-6">
+        <h1 class="mb-3">Join MoviElla</h1>
+        <div id="formAlert"></div>
+        <form id="registerForm" class="cv-form" novalidate>
+          <div class="field"><label for="regName">Name</label><div class="input-wrap"><input id="regName" name="regName" type="text" autocomplete="name"><span class="status" aria-hidden="true"></span></div><small class="msg" id="regNameMsg"></small></div>
+          <div class="field"><label for="regEmail">Email</label><div class="input-wrap"><input id="regEmail" name="regEmail" type="email" autocomplete="email"><span class="status" aria-hidden="true"></span></div><small class="msg" id="regEmailMsg"></small></div>
+          <div class="field"><label for="regPass">Password</label><div class="input-wrap"><input id="regPass" name="regPass" type="password" autocomplete="new-password"><span class="status" aria-hidden="true"></span></div><small class="msg" id="regPassMsg"></small></div>
+          <div class="strength" aria-hidden="true"><div id="strengthBar"></div></div>
+          <small id="strengthText" class="msg">Password strength: -</small>
+          <div class="field"><label for="regConfirm">Confirm password</label><div class="input-wrap"><input id="regConfirm" name="regConfirm" type="password" autocomplete="new-password"><span class="status" aria-hidden="true"></span></div><small class="msg" id="regConfirmMsg"></small></div>
+          <button class="btn btn-cv mt-3" type="submit">Create account</button>
+        </form>
+      </div></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-3"><h2 class="h6">MoviElla</h2><p>Movie info, ratings, trailers and reviews.</p></div>
+        <div class="col-md-4 mb-3"><h2 class="h6">Contact</h2><p>hello@moviella.example<br>Astana, Kazakhstan</p></div>
+        <div class="col-md-4 mb-3"><h2 class="h6">Follow</h2><p><a href="https://instagram.com">Instagram</a> · <a href="https://x.com">X</a> · <a href="https://youtube.com">YouTube</a></p></div>
+      </div>
+      <p class="text-center small mb-0">&copy; 2026 MoviElla. Student project.</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
