@@ -2,8 +2,8 @@ Endterm project Akerke, Madina, Aida IT-2503
 Description: A website where you can browse movies, compare ratings, open trailers and read reviews.
 Features: 5 pages, navigation menu, movie cards, ratings table, two forms, responsive design. 
 Technologies: HTML, CSS, Bootstrap, Google Fonts, GitHub.
-Akerke : Style css,contact.html Aida : Trailers.html,reviews.html,README.md Madina : Index.html,movies.html 
-https://qzxcvwyil.github.io/midterm-project/
+Akerke : modified index.html ,movies.html,style.css, in script.js:search and filter functionality,Madina:modified trailers .html,contact.html script.js: Validation,CRUD operations. Aida: modified reviews.html,added new register.html,script.js:Image gallery ,readme.md
+https://qzxcvwyil.github.io/endterm/index.html
 <img width="543" height="542" alt="image" src="https://github.com/user-attachments/assets/a8188771-2cdc-4412-90e6-c448ae77c4e6" />
 Website must have at least 5 pages
 Pages should be connected via a navigation bar visible on all pages
